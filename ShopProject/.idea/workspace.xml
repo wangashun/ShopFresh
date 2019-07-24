@@ -3,17 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="523e2719-e554-40f4-a3e0-52ea61f2b978" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp/static/shopapp/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/static/shopapp/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/templates/shopapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/templates/shopapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/templates/shopapp/h1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/templates/shopapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/templates/shopapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShopProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/shopapp/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/shopapp/css/sb-admin-2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/shopapp/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/shopapp/css/sb-admin-2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ShopProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1563958642817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,24 +61,12 @@
     <favorites_list name="ShopProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShopApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShopApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1423">
-              <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+            <state relative-caret-position="-2435">
+              <caret line="305" column="23" lean-forward="true" selection-start-line="305" selection-start-column="23" selection-end-line="305" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -78,28 +75,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShopApp/models.py">
+        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/all_goods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/register_store.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="643">
+              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="e#1034#1061#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,17 +89,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
+            <state relative-caret-position="1971">
+              <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="2133">
+              <caret line="79" column="97" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/update_goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1971">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#3;n#table#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,9 +148,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/ShopProject/settings.py" />
         <option value="$PROJECT_DIR$/ShopApp/models.py" />
-        <option value="$PROJECT_DIR$/ShopProject/urls.py" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/register.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/forgot-password.html" />
         <option value="$PROJECT_DIR$/ShopApp/static/shopapp/css/sb-admin-2.css" />
@@ -165,14 +158,18 @@
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/h1.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/ShopApp/templates/add_goods.html" />
-        <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/good_list.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/register_store.html" />
+        <option value="$PROJECT_DIR$/ShopProject/urls.py" />
+        <option value="$PROJECT_DIR$/ShopProject/settings.py" />
         <option value="$PROJECT_DIR$/ShopApp/urls.py" />
-        <option value="$PROJECT_DIR$/ShopApp/views.py" />
+        <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/all_goods.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/index.html" />
+        <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html" />
         <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/base.html" />
+        <option value="$PROJECT_DIR$/ShopApp/views.py" />
+        <option value="$PROJECT_DIR$/ShopApp/templates/shopapp/update_goods.html" />
       </list>
     </option>
   </component>
@@ -182,11 +179,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-27" />
-    <option name="y" value="33" />
-    <option name="width" value="1292" />
-    <option name="height" value="680" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="y" value="22" />
+    <option name="width" value="1347" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +209,23 @@
               <item name="ShopProject" type="462c0819:PsiDirectoryNode" />
               <item name="ShopApp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shopapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopProject" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +264,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.ShopProject">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
+      <module name="ShopProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ShopProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="ShopProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,6 +311,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.ShopProject" />
+      <item itemvalue="Python.manage" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -286,40 +326,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563763781755</updated>
-      <workItem from="1563763786051" duration="70108000" />
+      <workItem from="1563763786051" duration="70630000" />
+      <workItem from="1563928922955" duration="35616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70108000" />
+    <option name="totallyTimeSpent" value="106246000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-27" y="33" width="1292" height="680" extended-state="1" />
+    <frame x="31" y="0" width="1294" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5008944" side_tool="true" weight="0.25779036" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.024350649" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665925" visible="true" weight="0.024311183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.329806" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="manage.py@ShopProject" weight="0.09330986" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32982457" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.42242992" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033408" side_tool="true" weight="0.13650076" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.64089346" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.054844607" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.062184874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4031142" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.20535715" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.42242992" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.329806" />
+      <window_info anchor="bottom" id="manage.py@ShopProject" order="11" weight="0.5551783" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.08319185" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.20212767" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -358,20 +399,6 @@
             <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShopProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1443">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShopProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -430,20 +457,6 @@
     <entry file="file://$PROJECT_DIR$/ShopApp/static/shopapp/img/undraw_posting_photo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_goodsimg">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -451,49 +464,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/shopapp/img/03_p9wVl84.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/03_40tzO2m.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/03.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_oXCsMz1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/shopapp/img/06.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/shopapp/img/04.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz01_4YzyGFy.jpg">
@@ -505,34 +482,111 @@
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_TuneYLT.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ShopProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/03_p9wVl84.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz01_rBzPxEZ.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_oXCsMz1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_wk3hJRO.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/index.html">
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_NcybTQa.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/gz02_LeIoNkF.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/shopapp/img/06.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="79" column="96" selection-start-line="79" selection-start-column="96" selection-end-line="79" selection-end-column="96" />
+        <state relative-caret-position="270">
+          <caret line="130" column="48" lean-forward="true" selection-start-line="130" selection-start-column="48" selection-end-line="130" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_store_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://E:/Anaconda3AAA/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
-    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_storetype">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/ShopApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Anaconda3AAA/envs/DjangoPath/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3AAA/envs/DjangoPath/Lib/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/goods_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding>
+            <element signature="e#167#193#0#HTML" expanded="true" />
+            <element signature="e#995#1001#0#HTML" expanded="true" />
+            <element signature="e#1001#1007#0#HTML" expanded="true" />
+            <element signature="e#1007#1013#0#HTML" expanded="true" />
+            <element signature="e#1013#1019#0#HTML" expanded="true" />
+            <element signature="e#1019#1025#0#HTML" expanded="true" />
+            <element signature="e#1025#1031#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShopApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="104">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -543,20 +597,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1423">
-          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_goodsimg">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_goods_store_id">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -574,17 +639,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_goods_store_id">
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_store_type">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/add_goods.html">
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_storetype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://902b440a-7f6a-4930-806e-52d95e1386b5/schema/main/table/ShopApp_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="-559">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2133">
+          <caret line="79" column="97" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/update_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#3;n#table#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/templates/shopapp/all_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="e#1034#1061#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2435">
+          <caret line="305" column="23" lean-forward="true" selection-start-line="305" selection-start-column="23" selection-end-line="305" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11593,7 +11593,6 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
-
 .bg-register-image {
   background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
   background-position: center;
@@ -11601,7 +11600,8 @@ a:focus {
 }
 
 .bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563812232582&di=23ed3846f17d463b70dfeafc5bb5bf64&imgtype=0&src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_gif%2FroN1c1GhxqArR3bz2sGvd3vOLZp3wJsxa8TbNKXLJLVn23nuqeFXF85ibiakEYBx4eyfJY5nXLTgwjtLQNFRxfHQ%2F640%3Fwx_fmt%3Dgif");
+  /*background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");*/
   background-position: center;
   background-size: cover;
 }

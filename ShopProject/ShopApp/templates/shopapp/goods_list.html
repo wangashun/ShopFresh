@@ -3,7 +3,7 @@
 {% block content %}
     <p><a class="btn btn-warning" href="/shop/add_goods/">添加商品</a></p>
 
-    <table class="table table-bordered" >
+    <table class="table table-bordered" style="text-align: center">
         <thead>
             <tr>
                <th>商品名称</th>
@@ -17,15 +17,15 @@
         <tbody>
             {% for goods in page %}
                 <tr>
-                    <td>{{ goods.good_name }}</td>
+                    <td><a href="/shop/all_goods/{{ goods.id }}">{{ goods.good_name }}</a></td>
                     <td>
                         <input type="text" value="{{ goods.goods_price }}">
                     </td>
                     <td>{{ goods.goods_number }}</td>
-                    <td>{{ goods.goods_date }}</td>
+                    <td>{{ goods.goods_date|date:'Y-m-d' }}</td>
                     <td>{{ goods.goods_safeDate }}</td>
                     <td>
-                        <a class="btn btn-danger" href="#">下架</a>
+                        <a class="btn btn-danger" href="#">下架</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a class="btn btn-primary" href="#">销毁</a>
                     </td>
                 </tr>

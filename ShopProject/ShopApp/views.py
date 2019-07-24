@@ -98,24 +98,94 @@ def register(request):
 # 	return response   # 当不成功 获取方式不为post 就返回 response
 
 
+# def login(request):
+	# 原登录的方式
+# 	# print(request.method)
+# 	response = render(request, 'shopapp/login.html')
+# 	response.set_cookie('local_from', 'local_page')
+# 	username = request.POST.get('username')
+# 	password = request.POST.get('password')
+# 	# print(username, password)
+# 	if request.method == "POST":
+# 		if username and password:
+# 			user = Seller.objects.filter(username=username).first()
+# 			if user:
+# 				web_password = set_password(password)
+# 				# print(web_password)
+# 				cookies = request.COOKIES.get('local_from')
+# 				# print(cookies)
+# 				if web_password == user.password and cookies == 'local_page':
+# 					response = HttpResponseRedirect('/shop/index/')
+# 					response.set_cookie('username', username)
+# 					response.set_cookie('user_id', user.id)
+# 					request.session['username'] = username
+# 					return response
+# 	# return render(request, 'shopapp/login.html')
+# 	return response
+
+
+# def login(request):
+# 	response = render(request, 'shopapp/login.html')
+# 	response.set_cookie('local_from', 'local_page')
+# 	if request.method == 'POST':
+# 		username = request.POST.get('username')
+# 		password = request.POST.get('password')
+# 		if username and password:
+# 			user = Seller.objects.filter(username=username).first()
+# 			if user:
+# 				web_password = set_password(password)
+# 				cookies = request.COOKIES.get('local_from')
+# 				if user.password == web_password and cookies == 'local_page':
+# 					response = HttpResponseRedirect('/shop/index/')
+# 					response.set_cookie('username', username)
+# 					response.set_cookie('user_id', user.id)
+# 					request.session['username'] = username
+# 					store = Store.objects.filter(user_id=user.id).first()
+# 					if store:
+# 						response.set_cookie('has_store', store.id)
+# 					else:
+# 						response.set_cookie('has_store', '')
+# 					return response
+# 	return response
+
+
 def login(request):
 	response = render(request, 'shopapp/login.html')
 	response.set_cookie('local_from', 'local_page')
-	username = request.POST.get('username')
-	password = request.POST.get('password')
-	if username and password:
-		user = Seller.objects.filter(username=username).first()
-		if user:
-			web_password = set_password(password)
-			cookies = request.COOKIES.get('login_from')
-			if web_password == user.password and cookies == 'login_page':
-				response = HttpResponseRedirect('/shop/index')
-				response.set_cookie('username', username)
-				response.set_cookie('user_id', user.id)
-				request.session['username'] = username
-				return response
-	# return render(request, 'shopapp/login.html')
+	if request.method == 'POST':
+		username = request.POST.get('username')
+		password = request.POST.get('password')
+		if username and password:
+			user = Seller.objects.filter(username=username).first()
+			if user:
+				web_password = set_password(password)
+				cookies = request.COOKIES.get('local_from')
+				if user.password == web_password and cookies == 'local_page':
+					response = HttpResponseRedirect('/shop/index')
+					response.set_cookie('username', username)
+					response.set_cookie('user_id', user.id)
+					request.session['username'] = username
+					store = Store.objects.filter(user_id=user.id).first()
+					if store:
+						response.set_cookie('has_store', store.id)
+					else:
+						response.set_cookie('has_store', '')
+					return response
 	return response
+
+
+
+# def login_index(fun):
+# 	# 原
+# 	def inner(request, *args, **kwargs):
+# 		cookie_username = request.COOKIES.get('username')
+# 		session_username = request.session.get('username')
+# 		if cookie_username and session_username and cookie_username == session_username:
+# 			user = Seller.objects.filter(username=cookie_username).first()
+# 			if user:
+# 				return fun(request, *args, **kwargs)
+# 		return HttpResponseRedirect('/shop/login/')
+# 	return inner
 
 
 def login_index(fun):
@@ -123,31 +193,45 @@ def login_index(fun):
 		cookie_username = request.COOKIES.get('username')
 		session_username = request.session.get('username')
 		if cookie_username and session_username and cookie_username == session_username:
-			user = Seller.objects.filter(username=cookie_username).first()
-			if user:
-				return fun(request, *args, **kwargs)
-		return HttpResponseRedirect('/shop/login')
+			return fun(request, *args, **kwargs)
+		else:
+			return HttpResponseRedirect('/shop/login/')
 	return inner
+
+
+# def login_index(fun):
+# 	def inner(request, *args, **kwargs):
+# 		cookies_name = request.COOKIES.get('username')
+# 		session_username = request.session.get('username')
+# 		if cookies_name and session_username and cookies_name == session_username:
+# 			return fun(request, *args, **kwargs)
+# 		else:
+# 			return HttpResponseRedirect('/shop/login/')
+# 	return inner
+
 
 @ login_index
 def index(request):
-	user_id = request.COOKIES.get('user_id')
-	if user_id:
-		user_id = int(user_id)
-	else:
-		user_id = 0
-	store = Store.objects.filter(user_id=user_id).first()
-	if store:
-		is_store = 1
-	else:
-		is_store = 0
-	return render(request, 'shopapp/index.html', {'is_store': is_store})
+	return render(request, 'shopapp/index.html')
+# def index(request):
+# 	user_id = request.COOKIES.get('user_id')
+# 	if user_id:
+# 		user_id = int(user_id)
+# 	else:
+# 		user_id = 0
+# 	store = Store.objects.filter(user_id=user_id).first()
+# 	if store:
+# 		is_store = 1
+# 	else:
+# 		is_store = 0
+# 	return render(request, 'shopapp/index.html', {'is_store': is_store})
 
 
 def forget(request):
 	return render(request, 'shopapp/forgot-password.html')
 
 
+@ login_index
 def register_store(request):
 	type_list = StoreType.objects.all()
 	if request.method == 'POST':   # 以 post方式传递过来的数据
@@ -159,8 +243,8 @@ def register_store(request):
 		store_money = past.get('store_money')
 
 		user_id = int(request.COOKIES.get('user_id'))
-		type_lists = past.get('type')
-		print('type_lists:', type_lists)
+		type_lists = past.getlist('type')
+		# print('type_lists:', type_lists)
 		store_logo = request.FILES.get('store_logo')
 
 		store = Store()    # 店铺
@@ -177,10 +261,12 @@ def register_store(request):
 			store_type = StoreType.objects.get(id=i)
 			store.type.add(store_type)
 		store.save()
+		response = HttpResponseRedirect('/shop/index')
+		response.set_cookie('has_store', store.id)
+		return response
 	return render(request, 'shopapp/register_store.html', locals())
 
-
-
+@ login_index
 def add_goods(request):
 	if request.method == 'POST':
 		goods_name = request.POST.get('goods_name')
@@ -189,7 +275,7 @@ def add_goods(request):
 		goods_description = request.POST.get('goods_description')
 		goods_date = request.POST.get('goods_date')
 		goods_safeDate = request.POST.get('goods_safeDate')
-		goods_store = request.POST.get('goods_store')
+		goods_store = request.COOKIES.get('has_store')
 		goods_image = request.FILES.get('goods_image')
 		goods = Goods()
 		goods.good_name = goods_name
@@ -257,13 +343,31 @@ def add_goods(request):
 # 		page_range = paginator.page_range
 # 	return render(request, 'shopapp/goods_list.html', locals())
 
+# def goods_lists(request):
+# 	# 原good_lists
+# 	keywords = request.GET.get('keywords', '')
+# 	page_num = request.GET.get('page_num', 1)
+# 	if keywords:
+# 		goods_lists = Goods.objects.filter(good_name__contains=keywords)
+# 	else:
+# 		goods_lists = Goods.objects.all()
+# 	paginator = Paginator(goods_lists, 3)
+# 	page = paginator.page(int(page_num))
+# 	page_range = paginator.page_range
+#
+# 	return render(request, 'shopapp/goods_list.html', locals())
+
+
+@ login_index
 def goods_lists(request):
 	keywords = request.GET.get('keywords', '')
 	page_num = request.GET.get('page_num', 1)
+	store_id = request.COOKIES.get('has_store')
+	store = Store.objects.get(id=int(store_id))
 	if keywords:
-		goods_lists = Goods.objects.filter(good_name__contains=keywords)
+		goods_lists = store.goods_set.filter(good_name__contains=keywords)
 	else:
-		goods_lists = Goods.objects.all()
+		goods_lists = store.goods_set.all()
 	paginator = Paginator(goods_lists, 3)
 	page = paginator.page(int(page_num))
 	page_range = paginator.page_range
@@ -271,4 +375,35 @@ def goods_lists(request):
 	return render(request, 'shopapp/goods_list.html', locals())
 
 
+@ login_index
+def all_goods(request, goods_id):
+	goods = Goods.objects.filter(id=goods_id).first()
+	return render(request, 'shopapp/all_goods.html', locals())
 
+
+@ login_index
+def update_goods(request, goods_id):
+	goods_data = Goods.objects.filter(id=goods_id).first()
+	if request.method == 'POST':
+		goods_name = request.POST.get('goods_name')
+		goods_price = request.POST.get('goods_price')
+		goods_number = request.POST.get('goods_number')
+		goods_description = request.POST.get('goods_description')
+		goods_date = request.POST.get('goods_date')
+		goods_safeDate = request.POST.get('goods_safeDate')
+		goods_image = request.POST.get('goods_image')
+
+		goods = Goods.objects.get(id=int(goods_id))
+		goods.good_name = goods_name
+		goods.goods_price = goods_price
+		goods.goods_number = goods_number
+		goods.goods_description = goods_description
+		goods.goods_date = goods_date
+		goods.goods_safeDate = goods_safeDate
+
+		if goods_image:
+			goods.goods_image = goods_image
+		goods.save()
+		return HttpResponseRedirect("/shop/all_goods/%s/" % goods_id)
+
+	return render(request, 'shopapp/update_goods.html', locals())
